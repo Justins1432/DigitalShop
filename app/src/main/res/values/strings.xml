@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">DigitalShop</string>
+    <string name="text_bottom">Войдите в свою учетную запись</string>
+    <string name="btnSign_In">Войти</string>
+    <string name="btn_Regist">Регистрация</string>
+    <string name="btnRegBuyer">Покупатель</string>
+    <string name="btnRegSeller">Продавец</string>
+    <string name="profile">Профиль</string>
+    <string name="addproduct">Добавить продукт</string>
+    <string name="gotoshop">Перейти в магазин</string>
+    <string name="settings">Настройки</string>
+    <string name="messages">Сообщения</string>
+    <string name="website">https://plati.ru/</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="basket">Корзина</string>
+    <string name="games">Игры</string>
+    <string name="btnsoftware">Программное обеспечение</string>
+    <string name="socnetwork">Социальные сети</string>
+    <string name="accessres">Доступ к ресурсам</string>
+    <string name="mobconnect">Мобильная связь</string>
+    <string name="creditcard">Кредитные карты</string>
+    <string name="btngiftcertif">Подарочные сертификаты</string>
+    <string name="software">ПО</string>
+    <string name="giftcertif">Сертификаты</string>
+    <string name="cost">Стоимость:</string>
+    <string name="quantity">Количество:</string>
+    <string name="description">Описание</string>
+    <string name="val_rub">руб</string>
+    <string name="copy_prod">копий(и)</string>
+    <string name="add_product_basket">Добавить в корзину</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FF03DAC5</item>
+        <item name="colorPrimaryDark">#FF018786</item>
+        <item name="colorAccent">#FFBB86FC</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

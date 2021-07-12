@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile_buyer"
+            android:title="@string/profile"
+            android:icon="@drawable/profile"/>
+
+        <item
+            android:id="@+id/message_buyer"
+            android:title="@string/messages"
+            android:icon="@drawable/messages"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/gotoshop_buyer"
+            android:title="@string/gotoshop"
+            android:icon="@drawable/shop"/>
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/basket_buyer"
+            android:title="@string/basket"
+            android:icon="@drawable/basket"/>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/settings"
+            android:title="@string/settings"
+            android:icon="@drawable/settings"/>
+    </group>
+
+</menu>

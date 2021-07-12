@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/games"
+            android:title="@string/games"
+            android:icon="@drawable/games"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/software"
+            android:title="@string/software"
+            android:icon="@drawable/software"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/creditcard"
+            android:title="@string/creditcard"
+            android:icon="@drawable/creditcard"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mobconnect"
+            android:title="@string/mobconnect"
+            android:icon="@drawable/mobconnect"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/accres"
+            android:title="@string/accessres"
+            android:icon="@drawable/accessres"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/giftcert"
+            android:title="@string/giftcertif"
+            android:icon="@drawable/giftcertif"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/socnet"
+            android:title="@string/socnetwork"
+            android:icon="@drawable/socnet"/>
+    </group>
+
+</menu>

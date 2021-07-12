@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "449890483254",
+    "firebase_url": "https://digitalshop-f8cd4-default-rtdb.firebaseio.com",
+    "project_id": "digitalshop-f8cd4",
+    "storage_bucket": "digitalshop-f8cd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449890483254:android:b68658ba43b236d7422c97",
+        "android_client_info": {
+          "package_name": "com.example.digitalshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449890483254-svn4m9c6sa215df4d3commtbpb426bhl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.digitalshop",
+            "certificate_hash": "19b3ed17a956433a12dfd454102904eb475e19d0"
+          }
+        },
+        {
+          "client_id": "449890483254-d2kfri1ncajus7p0c44oiu9bdgp7nfhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_KF65gV7eZdt7fc0TNjqdNFR9Ah844pg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449890483254-d2kfri1ncajus7p0c44oiu9bdgp7nfhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

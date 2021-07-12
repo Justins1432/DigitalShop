@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shop.AddProduct"
+    android:id="@+id/root_addproduct"
+    app:cardElevation="20dp">
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:weightSum="7">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="@string/games"
+            android:textColor="@color/white"
+            android:layout_marginRight="6dp"
+            android:id="@+id/addGame" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="@string/btnsoftware"
+            android:textColor="@color/white"
+            android:layout_marginRight="6dp"
+            android:id="@+id/addSoftware" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="@string/creditcard"
+            android:textColor="@color/white"
+            android:layout_marginRight="6dp"
+            android:id="@+id/addCreditCard" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="@string/mobconnect"
+            android:textColor="@color/white"
+            android:layout_marginRight="6dp"
+            android:id="@+id/addMobConnect"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="@string/btngiftcertif"
+            android:textColor="@color/white"
+            android:layout_marginRight="6dp"
+            android:id="@+id/addGiftCertif" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="@string/socnetwork"
+            android:textColor="@color/white"
+            android:layout_marginRight="6dp"
+            android:id="@+id/addSocNet" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:text="@string/accessres"
+            android:textColor="@color/white"
+            android:layout_marginRight="6dp"
+            android:id="@+id/addAccesRes"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

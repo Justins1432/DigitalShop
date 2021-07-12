@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.digitalshop">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".shop.BasketBuyer"/>
+        <activity android:name=".outinshop.OutputInSocNet"/>
+        <activity android:name=".outinshop.OutputInAccRes"/>
+        <activity android:name=".outinshop.OutputInMobConnect"/>
+        <activity android:name=".outinshop.OutputInGiftCertif"/>
+        <activity android:name=".outinshop.OutputInCreditCard"/>
+        <activity android:name=".outinshop.OutputInSoftware"/>
+        <activity android:name=".outinshop.OutputInGames"/>
+        <activity android:name=".shop.AddProduct"/>
+        <activity android:name=".shop.GoToShop"/>
+        <activity android:name=".shop.Message"/>
+        <activity android:name=".shop.Settings"/>
+        <activity android:name=".shop.accessres"/>
+        <activity android:name=".shop.creditcard"/>
+        <activity android:name=".shop.games"/>
+        <activity android:name=".shop.giftcertif"/>
+        <activity android:name=".shop.mobconnect"/>
+        <activity android:name=".shop.socnet"/>
+        <activity android:name=".shop.software"/>
+        <activity android:name=".shop.EditProfileBuyer"/>
+        <activity android:name=".shop.EditProfileSeller"/>
+        <activity android:name=".profileusers.ProfileSeller"/>
+        <activity android:name=".profileusers.ProfileBuyer"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

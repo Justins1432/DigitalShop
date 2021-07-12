@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/root_element"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bungee_inline"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="@string/text_bottom"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_above="@+id/text_bottom"
+        android:layout_margin="15dp">
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="@string/btnSign_In"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="@string/btn_Regist"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
